@@ -1,13 +1,13 @@
 PROFILE ?= ServerlessCloud-NonProduction-Admin
 
-login:
+ssoLogin:
 	aws-sso-util login --profile $(PROFILE)
 
-configure:
+ssoConfigure:
 	aws-sso-util configure profile $(PROFILE)
 
 init:
-	AWS_SDK_LOAD_CONFIG=1 amplify init
+	amplify init
 
 serve:
 	npm run serve --open
