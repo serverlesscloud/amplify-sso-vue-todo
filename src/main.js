@@ -8,6 +8,10 @@ import {
 } from '@aws-amplify/ui-components/loader';
 
 Amplify.configure(aws_exports);
+
+import { AmazonAIPredictionsProvider } from "@aws-amplify/predictions";
+Amplify.addPluggable(new AmazonAIPredictionsProvider());
+
 applyPolyfills().then(() => {
   defineCustomElements(window);
 });

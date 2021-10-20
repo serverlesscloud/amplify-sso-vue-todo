@@ -1,6 +1,6 @@
 {
     "identityPoolName": "amplifyvuetodo5540d5c3_identitypool_5540d5c3",
-    "allowUnauthenticatedIdentities": false,
+    "allowUnauthenticatedIdentities": true,
     "resourceNameTruncated": "amplif5540d5c3",
     "userPoolName": "amplifyvuetodo5540d5c3_userpool_5540d5c3",
     "autoVerifiedAttributes": [

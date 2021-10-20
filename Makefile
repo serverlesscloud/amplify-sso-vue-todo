@@ -9,5 +9,8 @@ ssoConfigure:
 init:
 	amplify init
 
+deploy:
+	amplify push
+
 serve:
 	npm run serve --open

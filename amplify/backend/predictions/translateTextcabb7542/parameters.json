@@ -1,0 +1,14 @@
+{
+    "resourceName": "translateTextcabb7542",
+    "convertPolicyName": "translateTextPolicycabb7542",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "convertType": "translateText",
+    "sourceLang": "zh",
+    "targetLang": "en",
+    "access": "auth"
+}

@@ -43,5 +43,12 @@
         ]
       }
     }
+  },
+  "predictions": {
+    "translateTextcabb7542": {
+      "providerPlugin": "awscloudformation",
+      "service": "Translate",
+      "convertType": "translateText"
+    }
   }
 }
